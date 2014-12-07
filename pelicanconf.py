@@ -8,7 +8,7 @@ SITEURL = 'http://paulsalden.com'
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Europe/Amsterdam'
 
 DEFAULT_LANG = u'en'
 
