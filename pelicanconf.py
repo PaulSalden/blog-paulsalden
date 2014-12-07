@@ -36,3 +36,5 @@ DEFAULT_PAGINATION = 10
 
 THEME = 'pelican-bootstrap3'
 BOOTSTRAP_THEME = 'flatly'
+
+DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
