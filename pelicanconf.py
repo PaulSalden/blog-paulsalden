@@ -33,6 +33,6 @@ DEFAULT_PAGINATION = 10
 THEME = 'pelican-bootstrap3'
 BOOTSTRAP_THEME = 'flatly'
 
-PLUGINS = ['tipue_search']
+PLUGINS = ['tipue_search', 'render_math']
 
 DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
