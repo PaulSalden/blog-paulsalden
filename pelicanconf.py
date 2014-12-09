@@ -36,3 +36,5 @@ BOOTSTRAP_THEME = 'flatly'
 PLUGINS = ['tipue_search', 'render_math']
 
 DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
+
+DISQUS_SITENAME = 'paulsalden-com'
