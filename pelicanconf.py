@@ -38,3 +38,8 @@ PLUGINS = ['tipue_search', 'render_math']
 DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
 
 DISQUS_SITENAME = 'paulsalden-com'
+
+ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+PAGE_URL = 'pages/{slug}/'
+PAGE_SAVE_AS = 'pages/{slug}/index.html'
